@@ -5,8 +5,8 @@ root: "src",
 build: {
     rollupOptions: {
       input: {
-        main: './index.html',
-        license: './license.html'
+        main: './src/index.html',
+        license: './src/license.html'
       },
     },
     outDir: '../dist'
