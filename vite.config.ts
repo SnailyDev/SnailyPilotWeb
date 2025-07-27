@@ -5,7 +5,7 @@ root: "src",
 build: {
     rollupOptions: {
       input: {
-        index: './index.html',
+        main: './index.html',
         license: './license.html'
       },
     },
